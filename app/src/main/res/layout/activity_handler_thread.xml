@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HandlerThreadActivity">
+
+
+    <Button
+        android:id="@+id/start_thread_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义线程启动Handler" />
+
+    <Button
+        android:id="@+id/send_message_custom_btn"
+        android:layout_width="wrap_content"
+        android:text="发消息给自定义线程Handler"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/quit_custom_handler_btn"
+        android:layout_width="wrap_content"
+        android:text="退出自定义Handler"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:id="@+id/start_handler_thread_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用HandlerThread" />
+
+    <Button
+        android:id="@+id/send_message_standard_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发消息给标准的Handler" />
+
+
+    <Button
+        android:id="@+id/quit_standard_handler_btn"
+        android:layout_width="wrap_content"
+        android:text="退出标准Looper"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
